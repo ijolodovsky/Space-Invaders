@@ -543,7 +543,7 @@
 	      id: i,
 	      pos: [shieldPosX, shieldPosY],
 	      radius: 7,
-	      color: "#a0a09b",
+	      color: "#f587ec",
 	      game: this
 	    });
 	
@@ -994,7 +994,7 @@
 	  let bulletVel;
 	  if (this.name === 'defender') {
 	    bulletVel = [0, -4];
-	    bulletColor = "#FF00FF";
+	    bulletColor = "#00ffff";
 	  } else {
 	    bulletVel = [0, 4];
 	    bulletPosY += 30;
@@ -1003,11 +1003,11 @@
 	  let bulletPos = [bulletPosX, bulletPosY];
 	
 	  if (this.name === 'grunt') {   // este if hace que las balas de las naves enemigas sean de diferentes colores
-	    bulletColor = "#a2d3f5";
+	    bulletColor = "#a300a6";
 	  } else if (this.name === 'soldier') {
-	    bulletColor = "#fdfd67";
+	    bulletColor = "#d282fa";
 	  } else if (this.name === 'invader') {
-	    bulletColor = "#ff884e";
+	    bulletColor = "#5923fa";
 	  } else if (this.name === 'ufo') {
 	    bulletColor = "red";
 	  }

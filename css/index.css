@@ -13,8 +13,8 @@ body {
   justify-content: center;
   align-items: center;
 
-  background: rgb(2,0,36);
-  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 50%, rgba(5,5,91,1) 80%, rgba(9,9,121,1) 100%);
+  background-image: url("../img-nuevas/6574814.jpg");
+  background-size: cover;
 
   padding: 0;
   margin: 0;
@@ -117,7 +117,7 @@ body {
 
 #menu-button:hover {
   cursor: pointer;
-  color: #FFE500ff;
+  color: rgb(255, 0, 212);
 }
 
 #menu-container {
@@ -154,7 +154,7 @@ body {
 
 #about-button:hover {
   cursor: pointer;
-  color: #FFE500ff;
+  color: rgb(255, 0, 242);
 }
 
 #about {
@@ -196,12 +196,12 @@ body {
 
 #close-about:hover {
   cursor: pointer;
-  color: #FFE500ff;
+  color: rgb(255, 0, 221);
 }
 
 #instructions-button:hover {
   cursor: pointer;
-  color: #FFE500ff;
+  color: rgb(255, 0, 221);
 }
 
 #instructions {
@@ -233,22 +233,22 @@ body {
 
 #close-instructions:hover {
   cursor: pointer;
-  color: #FFE500ff;
+  color: rgb(255, 0, 221);
 }
 
 #close-instructions:hover {
   cursor: pointer;
-  color: #FFE500ff;
+  color: rgb(255, 0, 221);
 }
 
 #resume-button:hover {
   cursor: pointer;
-  color: #FFE500ff;
+  color: rgb(255, 0, 221);
 }
 
 #restart-button:hover {
   cursor: pointer;
-  color: #FFE500ff;
+  color: rgb(255, 0, 221);
 }
 
 #main-logo {
@@ -318,8 +318,8 @@ body {
 #play-game:hover {
   cursor: pointer;
   transition: all .3s ease-in;
-  background: #93D4CEff;
-  border: 2px solid #93D4CEff;
+  background: rgb(255, 0, 221);
+  border: 2px solid rgb(255, 0, 221);
   color: #000;
 }
 
